@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZhāngCāntīng</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ZhāngCāntīng</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#order">Order Online</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to ZhāngCāntīng</h2>
+        <p>Experience the authentic flavors of Chinese cuisine with a modern twist.</p>
+        <img src="placeholder.jpg" alt="Restaurant Interior">
+    </section>
+    
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <img src="placeholder.jpg" alt="Dish Image">
+            <h3>Sweet & Sour Pork</h3>
+            <p>Crispy pork coated in a tangy, fruity sauce.</p>
+            <span class="price">₱280</span>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="placeholder.jpg" alt="Dish Image">
+            <h3>Yangzhou Fried Rice</h3>
+            <p>Classic fried rice with shrimp, eggs, and BBQ pork.</p>
+            <span class="price">₱200</span>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <img src="placeholder.jpg" alt="Dish Image">
+            <h3>Peking Duck</h3>
+            <p>Roasted duck served with pancakes and hoisin sauce.</p>
+            <span class="price">₱1,200</span>
+            <button class="order-btn">Order Now</button>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>ZhāngCāntīng is dedicated to bringing traditional Chinese flavors to your table with fresh ingredients and time-honored recipes.</p>
+        <img src="placeholder.jpg" alt="Chef Cooking">
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>📍 Address: 123 Chinatown Street, Manila</p>
+        <p>📞 Phone: +63 912 345 6789</p>
+        <p>📧 Email: contact@zhangcanting.com</p>
+    </section>
+    
+    <section id="order">
+        <h2>Order Online</h2>
+        <p>Enjoy your favorite dishes from ZhāngCāntīng at home.</p>
+        <button class="order-btn">Place Your Order</button>
+    </section>
+    
+    <footer>
+        <p>© 2025 ZhāngCāntīng. All rights reserved.</p>
+    </footer>
+</body>
+</html>
